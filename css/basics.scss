@@ -1,0 +1,125 @@
+$baseColorFirst: #343950;
+$baseColorSecond: #526c98;
+$baseColorText: #F7F4F3;
+$baseDetailColor: #E63946;
+$baseColorBackground: linear-gradient(0deg,$baseColorFirst, $baseColorSecond);
+
+
+body {
+  font-family: "SourceSansPro", sans-serif;
+  color: #fcfefd;
+  background: $baseColorBackground;
+  height: 100vh;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url('../fonts/SourceSansPro-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'SourceSansPro-SemiBold';
+  src: url('../fonts/SourceSansPro-Semibold.otf') format('opentype');
+}
+
+a {
+  color: $baseColorText;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $baseColorText;
+  text-decoration: none;
+}
+
+a:visited {
+  color: $baseColorText;
+  text-decoration: none;
+}
+
+.header{
+  width: 100%;
+  line-height: 38px;
+  font-size: 24px;
+  margin: 0;
+}
+
+#header-container{
+  width: 100%;
+  float: left;
+  padding: 32px;
+}
+
+#menu-button-container{
+  width: 32px;
+  float: left;
+  padding-top: 10px;
+}
+
+#main-title{
+  width: calc(100% - 64px);
+  margin-left: 24px;
+  padding-top: 10px;
+  float: left;
+  line-height: 34px;
+  font-size: 34px;
+  text-shadow: 2px 2px 2px #0a0a0a69;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  background-color: $baseColorFirst;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 84px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: $baseColorText;
+  display: block;
+  transition: 0.3s;
+  white-space: nowrap;
+}
+
+.sidenav a:hover {
+  color: $baseColorText;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#menu{
+  #title{
+    position: absolute;
+    top: 6px;
+    left: 18px;
+    font-size: 40px;
+  }
+
+  #close{
+    top: 6px;
+  }
+}

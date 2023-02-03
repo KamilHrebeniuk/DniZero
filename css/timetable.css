@@ -1,0 +1,35 @@
+.day-header {
+  width: 100%;
+  float: left;
+  line-height: 40px;
+  font-size: 24px;
+  text-align: center;
+  background: #fcfefd;
+  color: #3e3e3e;
+  font-family: "SourceSansPro-SemiBold", sans-serif;
+  box-shadow: 0 2px 5px 2px rgba(29, 29, 29, 0.24);
+}
+
+.timetable-container {
+  width: 100%;
+  float: left;
+}
+.timetable-container .timetable {
+  width: calc(100% - 64px);
+  margin: 46px auto 46px auto;
+  border-radius: 20px;
+  background: #fcfefd;
+  box-shadow: 0 2px 5px 2px rgba(29, 29, 29, 0.36);
+}
+.timetable-container .timetable .point {
+  line-height: 20px;
+  font-size: 16px;
+  padding: 20px;
+  color: #3e3e3e;
+}
+.timetable-container .timetable .line {
+  width: calc(100% - 40px);
+  margin: auto;
+}
+
+/*# sourceMappingURL=timetable.css.map */

@@ -1,0 +1,45 @@
+.register-container{
+  width: 100%;
+  margin: 46px auto 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  float: left;
+
+  .register-content{
+    width: calc(100% - 64px);
+    margin: auto;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px 4px rgba(29, 29, 29, 0.36);
+    background: #F7F4F3;
+
+    .register-title{
+      margin: 0;
+      line-height: 16px;
+      font-size: 16px;
+      padding: 8px 14px 0;
+      color: #3e3e3e;
+      font-family: "SourceSansPro-SemiBold", sans-serif;
+    }
+
+    .register-input{
+      border: none;
+      background: none;
+      border-bottom: dashed 1px #3e3e3e;
+      width: calc(100% - 40px);
+      line-height: 16px;
+      padding: 0;
+      margin: 0 0 12px 20px;
+    }
+
+    #register-submit{
+      line-height: 40px;
+      text-align: center;
+      color: #3e3e3e;
+      background: #F7F4F3;
+      font-family: "SourceSansPro-SemiBold", sans-serif;
+    }
+  }
+}

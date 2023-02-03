@@ -1,0 +1,40 @@
+.default-button {
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  box-shadow: 0 1px 5px 1px rgba(22, 22, 22, 0.75);
+  padding: 6px;
+}
+
+#login-button {
+  background: linear-gradient(0deg, #ffa31b, #ffbd30);
+  float: left;
+  margin-left: 20px;
+}
+
+#login-container {
+  position: relative;
+  top: 50%;
+  margin-top: -108px;
+  width: 100%;
+  padding: 32px;
+  float: left;
+}
+#login-container #error {
+  float: left;
+  color: red;
+  display: none;
+}
+
+#login {
+  width: calc(100% - 58px);
+  float: left;
+}
+
+#login-icon {
+  position: relative;
+  left: -1px;
+  top: -2px;
+}
+
+/*# sourceMappingURL=login.css.map */

@@ -1,0 +1,52 @@
+.leader-container {
+  width: 100%;
+  float: left;
+}
+.leader-container .leader {
+  width: calc(100% - 64px);
+  margin: 0 auto 46px auto;
+  border-radius: 20px;
+  background: #fcfefd;
+  box-shadow: 0 2px 5px 2px rgba(29, 29, 29, 0.36);
+  overflow: hidden;
+}
+.leader-container .image-ratio {
+  width: 100%;
+  position: relative;
+  padding-top: 133.5%;
+  overflow: hidden;
+  z-index: 1;
+}
+.leader-container .image-ratio .image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.leader-container .description-container {
+  width: 100%;
+  line-height: 14px;
+  padding: 14px;
+  font-size: 12px;
+  background: #fcfefd;
+  color: #3e3e3e;
+}
+.leader-container .description-container .point {
+  color: #3e3e3e;
+}
+.leader-container .description-container .point .title {
+  line-height: 12px;
+  font-size: 12px;
+}
+.leader-container .description-container .point .content {
+  line-height: 20px;
+  font-size: 16px;
+  padding-left: 10px;
+}
+.leader-container .line {
+  width: 100%;
+  margin: 10px 0;
+}
+
+/*# sourceMappingURL=leader.css.map */
